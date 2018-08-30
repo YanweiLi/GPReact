@@ -1,16 +1,27 @@
 
+# 个人私有源
+source "https://github.com/YanweiLi/GPSpecs.git"
 
 # workspace文件名
-workspace 'GPReact.xcworkspace' 
+workspace 'GPReact.xcworkspace'
+
+def _dependSDK
+ pod 'GPFoundation' , '~> 1.0.0'
+end
 
 target 'GPReact' do
   platform :ios, '8.0'
   project './GPReact/GPReact.xcodeproj'
+  
+  # 基础库
+  _dependSDK
 end
 
 target 'GPReactDemo' do
   platform :ios, '8.0'
-
   project './GPReactDemo/GPReactDemo.xcodeproj'
+  
+  # 基础库
+  _dependSDK
 end
 

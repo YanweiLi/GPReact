@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		816C4044220FD6A08ECD1902 /* libPods-GPReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FE34D6A0BE96868181C997 /* libPods-GPReact.a */; };
-		D74AFE8C21380B94000E48E7 /* .h in Resources */ = {isa = PBXBuildFile; fileRef = D74AFE8B21380B94000E48E7 /* .h */; };
+		D74AFEB721380D91000E48E7 /* GPReact.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEB521380D89000E48E7 /* GPReact.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,8 +16,8 @@
 		D4E041FD057CC7281C225C3A /* Pods-GPReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPReact.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GPReact/Pods-GPReact.release.xcconfig"; sourceTree = "<group>"; };
 		D6384BF7C8BDB7F668D4BD95 /* Pods-GPReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPReact.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GPReact/Pods-GPReact.debug.xcconfig"; sourceTree = "<group>"; };
 		D74AFE8821380B94000E48E7 /* GPReact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPReact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D74AFE8B21380B94000E48E7 /* .h */ = {isa = PBXFileReference; lastKnownFileType = text; path = .h; sourceTree = "<group>"; };
 		D74AFE8D21380B94000E48E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74AFEB521380D89000E48E7 /* GPReact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPReact.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +53,8 @@
 		D74AFE8A21380B94000E48E7 /* GPReact */ = {
 			isa = PBXGroup;
 			children = (
-				D74AFE8B21380B94000E48E7 /* .h */,
 				D74AFE8D21380B94000E48E7 /* Info.plist */,
+				D74AFEB521380D89000E48E7 /* GPReact.h */,
 			);
 			path = GPReact;
 			sourceTree = "<group>";
@@ -83,6 +83,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74AFEB721380D91000E48E7 /* GPReact.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +154,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74AFE8C21380B94000E48E7 /* .h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

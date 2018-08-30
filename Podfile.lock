@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: 9822a02ce8b69d679d457d1cea22aac1f5ad6a94
+PODS:
+  - GPFoundation (1.0.0):
+    - GPTuple (~> 1.0.0)
+    - GrapeSequence (~> 1.0.0)
+  - GPTuple (1.0.0)
+  - GrapeSequence (1.0.0)
+
+DEPENDENCIES:
+  - GPFoundation (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/YanweiLi/GPSpecs.git:
+    - GPFoundation
+    - GPTuple
+    - GrapeSequence
+
+SPEC CHECKSUMS:
+  GPFoundation: dc75f945233a7a8c2ce0275e7b5ffaeeb0a6d7ce
+  GPTuple: eda6a25628609fdca183872650babea14e249260
+  GrapeSequence: 4a7cad2bfa4162ffac3e8cfe1401ec83d158cfc9
+
+PODFILE CHECKSUM: b6543cb62dbb883f4a86564e532d2db5b56b166c
 
 COCOAPODS: 1.5.3
