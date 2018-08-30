@@ -1,0 +1,16 @@
+
+
+# workspace文件名
+workspace 'GPReact.xcworkspace' 
+
+target 'GPReact' do
+  platform :ios, '8.0'
+  project './GPReact/GPReact.xcodeproj'
+end
+
+target 'GPReactDemo' do
+  platform :ios, '8.0'
+
+  project './GPReactDemo/GPReactDemo.xcodeproj'
+end
+
