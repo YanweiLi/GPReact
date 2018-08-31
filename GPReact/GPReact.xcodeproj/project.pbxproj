@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		816C4044220FD6A08ECD1902 /* libPods-GPReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FE34D6A0BE96868181C997 /* libPods-GPReact.a */; };
 		D74AFEB721380D91000E48E7 /* GPReact.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEB521380D89000E48E7 /* GPReact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74AFEBB2138DA05000E48E7 /* GPRCancelable.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */; };
+		D74AFEBD2138DA3B000E48E7 /* GPRTransformEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBC2138DA3B000E48E7 /* GPRTransformEdge.h */; };
+		D74AFEBF2138DF9A000E48E7 /* GPRNextReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */; };
+		D74AFEC32138DFE9000E48E7 /* GPRSenderList.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */; };
+		D74AFEC42138DFE9000E48E7 /* GPRSenderList.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AFEC22138DFE9000E48E7 /* GPRSenderList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +23,11 @@
 		D74AFE8821380B94000E48E7 /* GPReact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPReact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74AFE8D21380B94000E48E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74AFEB521380D89000E48E7 /* GPReact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPReact.h; sourceTree = "<group>"; };
+		D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRCancelable.h; sourceTree = "<group>"; };
+		D74AFEBC2138DA3B000E48E7 /* GPRTransformEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRTransformEdge.h; sourceTree = "<group>"; };
+		D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRNextReceiver.h; sourceTree = "<group>"; };
+		D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRSenderList.h; sourceTree = "<group>"; };
+		D74AFEC22138DFE9000E48E7 /* GPRSenderList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRSenderList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +63,39 @@
 		D74AFE8A21380B94000E48E7 /* GPReact */ = {
 			isa = PBXGroup;
 			children = (
+				D74AFEC02138DFD9000E48E7 /* Utility */,
+				D74AFEB92138D9DA000E48E7 /* Core */,
 				D74AFE8D21380B94000E48E7 /* Info.plist */,
 				D74AFEB521380D89000E48E7 /* GPReact.h */,
 			);
 			path = GPReact;
+			sourceTree = "<group>";
+		};
+		D74AFEB82138D9D2000E48E7 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */,
+				D74AFEBC2138DA3B000E48E7 /* GPRTransformEdge.h */,
+				D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D74AFEB92138D9DA000E48E7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D74AFEB82138D9D2000E48E7 /* Protocol */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D74AFEC02138DFD9000E48E7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */,
+				D74AFEC22138DFE9000E48E7 /* GPRSenderList.m */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		D87ADD117E484E16BF95BEAB /* Pods */ = {
@@ -83,7 +122,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74AFEBF2138DF9A000E48E7 /* GPRNextReceiver.h in Headers */,
+				D74AFEBD2138DA3B000E48E7 /* GPRTransformEdge.h in Headers */,
+				D74AFEBB2138DA05000E48E7 /* GPRCancelable.h in Headers */,
 				D74AFEB721380D91000E48E7 /* GPReact.h in Headers */,
+				D74AFEC32138DFE9000E48E7 /* GPRSenderList.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74AFEC42138DFE9000E48E7 /* GPRSenderList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
