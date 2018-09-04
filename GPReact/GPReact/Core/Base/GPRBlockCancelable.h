@@ -19,7 +19,7 @@ typedef void(^GPRCancelBlockType)(void);
  Object which executes cancel action using Block, when a cancel method is invoked, the block will be called
  
  @param block   Block representing the cancel action
- @return        EZRBlockCancelable instance
+ @return        GPRBlockCancelable instance
  */
 - (instancetype)initWithBlock:(GPRCancelBlockType)block NS_DESIGNATED_INITIALIZER;
 
