@@ -8,18 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		816C4044220FD6A08ECD1902 /* libPods-GPReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FE34D6A0BE96868181C997 /* libPods-GPReact.a */; };
+		D73B3BC32138EDC200733EFA /* GPRListenContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D73B3BC12138EDC200733EFA /* GPRListenContext.h */; };
+		D73B3BC42138EDC200733EFA /* GPRListenContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D73B3BC22138EDC200733EFA /* GPRListenContext.m */; };
 		D74AFEB721380D91000E48E7 /* GPReact.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEB521380D89000E48E7 /* GPReact.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D74AFEBB2138DA05000E48E7 /* GPRCancelable.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */; };
-		D74AFEBD2138DA3B000E48E7 /* GPRTransformEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBC2138DA3B000E48E7 /* GPRTransformEdge.h */; };
-		D74AFEBF2138DF9A000E48E7 /* GPRNextReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */; };
-		D74AFEC32138DFE9000E48E7 /* GPRSenderList.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */; };
+		D74AFEBB2138DA05000E48E7 /* GPRCancelable.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74AFEBD2138DA3B000E48E7 /* GPRTransformEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBC2138DA3B000E48E7 /* GPRTransformEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74AFEBF2138DF9A000E48E7 /* GPRNextReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74AFEC32138DFE9000E48E7 /* GPRSenderList.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D74AFEC42138DFE9000E48E7 /* GPRSenderList.m in Sources */ = {isa = PBXBuildFile; fileRef = D74AFEC22138DFE9000E48E7 /* GPRSenderList.m */; };
+		D74AFEC62138E7AF000E48E7 /* GPRListenEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEC52138E7AF000E48E7 /* GPRListenEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74AFEC82138E7F7000E48E7 /* GPREdge.h in Headers */ = {isa = PBXBuildFile; fileRef = D74AFEC72138E7F7000E48E7 /* GPREdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B4D36F2139107500806D87 /* GPRCancelableBagProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D36E2139107500806D87 /* GPRCancelableBagProtocol.h */; };
+		D7B4D372213910CC00806D87 /* GPRBlockListen.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D370213910CC00806D87 /* GPRBlockListen.h */; };
+		D7B4D373213910CC00806D87 /* GPRBlockListen.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D371213910CC00806D87 /* GPRBlockListen.m */; };
+		D7B4D3772139112300806D87 /* GPRListen.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D3752139112300806D87 /* GPRListen.h */; };
+		D7B4D3782139112300806D87 /* GPRListen.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D3762139112300806D87 /* GPRListen.m */; };
+		D7B4D37D2139189700806D87 /* GPRDeliveredListen.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D37B2139189700806D87 /* GPRDeliveredListen.h */; };
+		D7B4D37E2139189700806D87 /* GPRDeliveredListen.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D37C2139189700806D87 /* GPRDeliveredListen.m */; };
+		D7B4D3822139194400806D87 /* NSObject+GPRExt.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D3802139194400806D87 /* NSObject+GPRExt.h */; };
+		D7B4D3832139194400806D87 /* NSObject+GPRExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D3812139194400806D87 /* NSObject+GPRExt.m */; };
+		D7B4D38621391EDD00806D87 /* GPRPathTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D38421391EDD00806D87 /* GPRPathTrampoline.h */; };
+		D7B4D38721391EDD00806D87 /* GPRPathTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D38521391EDD00806D87 /* GPRPathTrampoline.m */; };
+		D7B4D38B21391F4400806D87 /* GPRMutableNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D38921391F4400806D87 /* GPRMutableNode.h */; };
+		D7B4D38C21391F4400806D87 /* GPRMutableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D38A21391F4400806D87 /* GPRMutableNode.m */; };
+		D7B4D38F213935D800806D87 /* GPREmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D38D213935D800806D87 /* GPREmpty.h */; };
+		D7B4D390213935D800806D87 /* GPREmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D38E213935D800806D87 /* GPREmpty.m */; };
+		D7B4D393213937BA00806D87 /* GPRTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D391213937BA00806D87 /* GPRTransform.h */; };
+		D7B4D394213937BA00806D87 /* GPRTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D392213937BA00806D87 /* GPRTransform.m */; };
+		D7B4D39721393F1600806D87 /* GPRBlockCancelable.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D39521393F1600806D87 /* GPRBlockCancelable.h */; };
+		D7B4D39821393F1600806D87 /* GPRBlockCancelable.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B4D39621393F1600806D87 /* GPRBlockCancelable.m */; };
+		D7B4D39F2139416800806D87 /* GPRMutableNode+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D39D2139416800806D87 /* GPRMutableNode+Private.h */; };
+		D7FD6C3221390D8B00C6D0FD /* GPRListenContext+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FD6C3021390D8B00C6D0FD /* GPRListenContext+Private.h */; };
+		D7FD6C3621390DD100C6D0FD /* GPRNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FD6C3421390DD100C6D0FD /* GPRNode.h */; };
+		D7FD6C3721390DD100C6D0FD /* GPRNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD6C3521390DD100C6D0FD /* GPRNode.m */; };
+		D7FD6C3A21390F0900C6D0FD /* GPRNode+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FD6C3821390F0900C6D0FD /* GPRNode+Private.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88FE34D6A0BE96868181C997 /* libPods-GPReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPReact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E041FD057CC7281C225C3A /* Pods-GPReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPReact.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GPReact/Pods-GPReact.release.xcconfig"; sourceTree = "<group>"; };
 		D6384BF7C8BDB7F668D4BD95 /* Pods-GPReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPReact.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GPReact/Pods-GPReact.debug.xcconfig"; sourceTree = "<group>"; };
+		D73B3BC12138EDC200733EFA /* GPRListenContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRListenContext.h; sourceTree = "<group>"; };
+		D73B3BC22138EDC200733EFA /* GPRListenContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRListenContext.m; sourceTree = "<group>"; };
 		D74AFE8821380B94000E48E7 /* GPReact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPReact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74AFE8D21380B94000E48E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74AFEB521380D89000E48E7 /* GPReact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPReact.h; sourceTree = "<group>"; };
@@ -28,6 +58,33 @@
 		D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRNextReceiver.h; sourceTree = "<group>"; };
 		D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRSenderList.h; sourceTree = "<group>"; };
 		D74AFEC22138DFE9000E48E7 /* GPRSenderList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRSenderList.m; sourceTree = "<group>"; };
+		D74AFEC52138E7AF000E48E7 /* GPRListenEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRListenEdge.h; sourceTree = "<group>"; };
+		D74AFEC72138E7F7000E48E7 /* GPREdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPREdge.h; sourceTree = "<group>"; };
+		D7B4D36E2139107500806D87 /* GPRCancelableBagProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRCancelableBagProtocol.h; sourceTree = "<group>"; };
+		D7B4D370213910CC00806D87 /* GPRBlockListen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRBlockListen.h; sourceTree = "<group>"; };
+		D7B4D371213910CC00806D87 /* GPRBlockListen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRBlockListen.m; sourceTree = "<group>"; };
+		D7B4D3752139112300806D87 /* GPRListen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRListen.h; sourceTree = "<group>"; };
+		D7B4D3762139112300806D87 /* GPRListen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRListen.m; sourceTree = "<group>"; };
+		D7B4D3792139122C00806D87 /* GPRMarcoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRMarcoDefine.h; sourceTree = "<group>"; };
+		D7B4D37B2139189700806D87 /* GPRDeliveredListen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRDeliveredListen.h; sourceTree = "<group>"; };
+		D7B4D37C2139189700806D87 /* GPRDeliveredListen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRDeliveredListen.m; sourceTree = "<group>"; };
+		D7B4D3802139194400806D87 /* NSObject+GPRExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GPRExt.h"; sourceTree = "<group>"; };
+		D7B4D3812139194400806D87 /* NSObject+GPRExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GPRExt.m"; sourceTree = "<group>"; };
+		D7B4D38421391EDD00806D87 /* GPRPathTrampoline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRPathTrampoline.h; sourceTree = "<group>"; };
+		D7B4D38521391EDD00806D87 /* GPRPathTrampoline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRPathTrampoline.m; sourceTree = "<group>"; };
+		D7B4D38921391F4400806D87 /* GPRMutableNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRMutableNode.h; sourceTree = "<group>"; };
+		D7B4D38A21391F4400806D87 /* GPRMutableNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRMutableNode.m; sourceTree = "<group>"; };
+		D7B4D38D213935D800806D87 /* GPREmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPREmpty.h; sourceTree = "<group>"; };
+		D7B4D38E213935D800806D87 /* GPREmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPREmpty.m; sourceTree = "<group>"; };
+		D7B4D391213937BA00806D87 /* GPRTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRTransform.h; sourceTree = "<group>"; };
+		D7B4D392213937BA00806D87 /* GPRTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRTransform.m; sourceTree = "<group>"; };
+		D7B4D39521393F1600806D87 /* GPRBlockCancelable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRBlockCancelable.h; sourceTree = "<group>"; };
+		D7B4D39621393F1600806D87 /* GPRBlockCancelable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRBlockCancelable.m; sourceTree = "<group>"; };
+		D7B4D39D2139416800806D87 /* GPRMutableNode+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPRMutableNode+Private.h"; sourceTree = "<group>"; };
+		D7FD6C3021390D8B00C6D0FD /* GPRListenContext+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPRListenContext+Private.h"; sourceTree = "<group>"; };
+		D7FD6C3421390DD100C6D0FD /* GPRNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRNode.h; sourceTree = "<group>"; };
+		D7FD6C3521390DD100C6D0FD /* GPRNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRNode.m; sourceTree = "<group>"; };
+		D7FD6C3821390F0900C6D0FD /* GPRNode+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPRNode+Private.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +99,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D73B3BC02138EDAD00733EFA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D7B4D38D213935D800806D87 /* GPREmpty.h */,
+				D7B4D38E213935D800806D87 /* GPREmpty.m */,
+				D73B3BC12138EDC200733EFA /* GPRListenContext.h */,
+				D73B3BC22138EDC200733EFA /* GPRListenContext.m */,
+				D7B4D39521393F1600806D87 /* GPRBlockCancelable.h */,
+				D7B4D39621393F1600806D87 /* GPRBlockCancelable.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		D74AFE7D21380B94000E48E7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +133,11 @@
 		D74AFE8A21380B94000E48E7 /* GPReact */ = {
 			isa = PBXGroup;
 			children = (
-				D74AFEC02138DFD9000E48E7 /* Utility */,
-				D74AFEB92138D9DA000E48E7 /* Core */,
 				D74AFE8D21380B94000E48E7 /* Info.plist */,
 				D74AFEB521380D89000E48E7 /* GPReact.h */,
+				D7B4D37F2139191C00806D87 /* Category */,
+				D74AFEC02138DFD9000E48E7 /* Utility */,
+				D74AFEB92138D9DA000E48E7 /* Core */,
 			);
 			path = GPReact;
 			sourceTree = "<group>";
@@ -74,8 +145,11 @@
 		D74AFEB82138D9D2000E48E7 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */,
+				D74AFEC72138E7F7000E48E7 /* GPREdge.h */,
+				D74AFEC52138E7AF000E48E7 /* GPRListenEdge.h */,
 				D74AFEBC2138DA3B000E48E7 /* GPRTransformEdge.h */,
+				D74AFEBA2138DA05000E48E7 /* GPRCancelable.h */,
+				D7B4D36E2139107500806D87 /* GPRCancelableBagProtocol.h */,
 				D74AFEBE2138DF9A000E48E7 /* GPRNextReceiver.h */,
 			);
 			path = Protocol;
@@ -84,6 +158,11 @@
 		D74AFEB92138D9DA000E48E7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D73B3BC02138EDAD00733EFA /* Base */,
+				D7B4D38821391F1E00806D87 /* Node */,
+				D7B4D37A2139156800806D87 /* Transform */,
+				D7B4D374213910ED00806D87 /* Listen */,
+				D7FD6C2F21390D7600C6D0FD /* Private */,
 				D74AFEB82138D9D2000E48E7 /* Protocol */,
 			);
 			path = Core;
@@ -92,10 +171,65 @@
 		D74AFEC02138DFD9000E48E7 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				D7B4D3792139122C00806D87 /* GPRMarcoDefine.h */,
 				D74AFEC12138DFE9000E48E7 /* GPRSenderList.h */,
 				D74AFEC22138DFE9000E48E7 /* GPRSenderList.m */,
+				D7B4D38421391EDD00806D87 /* GPRPathTrampoline.h */,
+				D7B4D38521391EDD00806D87 /* GPRPathTrampoline.m */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		D7B4D374213910ED00806D87 /* Listen */ = {
+			isa = PBXGroup;
+			children = (
+				D7B4D3752139112300806D87 /* GPRListen.h */,
+				D7B4D3762139112300806D87 /* GPRListen.m */,
+				D7B4D370213910CC00806D87 /* GPRBlockListen.h */,
+				D7B4D371213910CC00806D87 /* GPRBlockListen.m */,
+				D7B4D37B2139189700806D87 /* GPRDeliveredListen.h */,
+				D7B4D37C2139189700806D87 /* GPRDeliveredListen.m */,
+			);
+			path = Listen;
+			sourceTree = "<group>";
+		};
+		D7B4D37A2139156800806D87 /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				D7B4D391213937BA00806D87 /* GPRTransform.h */,
+				D7B4D392213937BA00806D87 /* GPRTransform.m */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
+		D7B4D37F2139191C00806D87 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D7B4D3802139194400806D87 /* NSObject+GPRExt.h */,
+				D7B4D3812139194400806D87 /* NSObject+GPRExt.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D7B4D38821391F1E00806D87 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				D7FD6C3421390DD100C6D0FD /* GPRNode.h */,
+				D7FD6C3521390DD100C6D0FD /* GPRNode.m */,
+				D7B4D38921391F4400806D87 /* GPRMutableNode.h */,
+				D7B4D38A21391F4400806D87 /* GPRMutableNode.m */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		D7FD6C2F21390D7600C6D0FD /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				D7FD6C3821390F0900C6D0FD /* GPRNode+Private.h */,
+				D7B4D39D2139416800806D87 /* GPRMutableNode+Private.h */,
+				D7FD6C3021390D8B00C6D0FD /* GPRListenContext+Private.h */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 		D87ADD117E484E16BF95BEAB /* Pods */ = {
@@ -123,10 +257,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74AFEBF2138DF9A000E48E7 /* GPRNextReceiver.h in Headers */,
+				D7B4D38F213935D800806D87 /* GPREmpty.h in Headers */,
+				D7FD6C3221390D8B00C6D0FD /* GPRListenContext+Private.h in Headers */,
+				D7B4D372213910CC00806D87 /* GPRBlockListen.h in Headers */,
 				D74AFEBD2138DA3B000E48E7 /* GPRTransformEdge.h in Headers */,
+				D7B4D3822139194400806D87 /* NSObject+GPRExt.h in Headers */,
+				D7B4D36F2139107500806D87 /* GPRCancelableBagProtocol.h in Headers */,
+				D74AFEC62138E7AF000E48E7 /* GPRListenEdge.h in Headers */,
+				D7B4D39721393F1600806D87 /* GPRBlockCancelable.h in Headers */,
+				D7B4D38B21391F4400806D87 /* GPRMutableNode.h in Headers */,
+				D74AFEC82138E7F7000E48E7 /* GPREdge.h in Headers */,
+				D7B4D3772139112300806D87 /* GPRListen.h in Headers */,
 				D74AFEBB2138DA05000E48E7 /* GPRCancelable.h in Headers */,
-				D74AFEB721380D91000E48E7 /* GPReact.h in Headers */,
+				D7B4D37D2139189700806D87 /* GPRDeliveredListen.h in Headers */,
+				D7FD6C3621390DD100C6D0FD /* GPRNode.h in Headers */,
+				D7B4D39F2139416800806D87 /* GPRMutableNode+Private.h in Headers */,
+				D73B3BC32138EDC200733EFA /* GPRListenContext.h in Headers */,
+				D7FD6C3A21390F0900C6D0FD /* GPRNode+Private.h in Headers */,
 				D74AFEC32138DFE9000E48E7 /* GPRSenderList.h in Headers */,
+				D7B4D393213937BA00806D87 /* GPRTransform.h in Headers */,
+				D7B4D38621391EDD00806D87 /* GPRPathTrampoline.h in Headers */,
+				D74AFEB721380D91000E48E7 /* GPReact.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +379,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73B3BC42138EDC200733EFA /* GPRListenContext.m in Sources */,
+				D7B4D390213935D800806D87 /* GPREmpty.m in Sources */,
+				D7B4D37E2139189700806D87 /* GPRDeliveredListen.m in Sources */,
+				D7B4D38C21391F4400806D87 /* GPRMutableNode.m in Sources */,
 				D74AFEC42138DFE9000E48E7 /* GPRSenderList.m in Sources */,
+				D7B4D373213910CC00806D87 /* GPRBlockListen.m in Sources */,
+				D7B4D3832139194400806D87 /* NSObject+GPRExt.m in Sources */,
+				D7B4D394213937BA00806D87 /* GPRTransform.m in Sources */,
+				D7B4D3782139112300806D87 /* GPRListen.m in Sources */,
+				D7B4D39821393F1600806D87 /* GPRBlockCancelable.m in Sources */,
+				D7FD6C3721390DD100C6D0FD /* GPRNode.m in Sources */,
+				D7B4D38721391EDD00806D87 /* GPRPathTrampoline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GPRSenderList.h"
 
 @protocol GPRNextReceiver <NSObject>
 @required
@@ -19,5 +20,5 @@
  @param senderList  List of node value senders, used for retrospecting the sources of values
  @param context     Context passed by user
  */
-- (void)next:(nullable id)value from:(nonnull EZRSenderList *)senderList context:(nullable id)context;
+- (void)next:(nullable id)value from:(nonnull GPRSenderList *)senderList context:(nullable id)context;
 @end

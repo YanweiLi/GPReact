@@ -7,3 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+
+// protocol
+#import <GPReact/GPREdge.h>
+#import <GPReact/GPRCancelable.h>
+#import <GPReact/GPRTransformEdge.h>
+#import <GPReact/GPRNextReceiver.h>
+#import <GPReact/GPRListenEdge.h>
+
+// utility
+#import <GPReact/GPRSenderList.h>

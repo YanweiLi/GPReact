@@ -7,23 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "GPREdge.h"
+#import "GPRNextReceiver.h"
 @class GPRNode;
 
-@protocol GPRTransformEdge <NSObject>
+@protocol GPRTransformEdge <GPREdge, GPRNextReceiver>
 
 /**
- The upstream value of the EZRTransformEdge
+ The upstream value of the GPRTransformEdge
  */
-@property (atomic, strong, nullable) EZRNode *from;
+@property (atomic, strong, nullable) GPRNode *from;
 
 /**
- The downstream value of the EZRTransformEdge
+ The downstream value of the GPRTransformEdge
  */
-@property (atomic, weak, nullable) EZRNode *to;
+@property (atomic, weak, nullable) GPRNode *to;
 
 /**
  Represent the next instance which can receive the value senderlist and context
  */
-@property (atomic, weak, nullable) id<EZRNextReceiver> nextReceiver;
+@property (atomic, weak, nullable) id<GPRNextReceiver> nextReceiver;
 @end

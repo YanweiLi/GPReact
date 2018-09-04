@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <GPReact/GPReact.h>
 
 @interface ViewController ()
 
