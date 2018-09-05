@@ -8,6 +8,7 @@
 
 #import "GPRNode.h"
 #import "GPRMutableNode.h"
+#import "GPRNode+Private.h"
 #import "GPREmpty.h"
 
 #pragma clang diagnostic push

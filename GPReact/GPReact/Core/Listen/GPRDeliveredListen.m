@@ -13,8 +13,8 @@
     dispatch_queue_t _queue;
 }
 
-- (instancetype)initWithBlock:(GPRListenBlockType)block
-                           on:(dispatch_queue_t)queue
+- (instancetype) initWithBlock:(GPRListenBlockType)block
+                            on:(dispatch_queue_t)queue
 {
     NSParameterAssert(queue);
     if (self = [super initWithBlock:block]) {
@@ -24,9 +24,9 @@
     return self;
 }
 
-- (void)next:(id)value
-        from:(GPRSenderList *)senderList
-     context:(nullable id)context
+- (void) next:(id)value
+         from:(GPRSenderList *)senderList
+      context:(nullable id)context
 {
     if (_queue) {
         dispatch_async(_queue, ^{

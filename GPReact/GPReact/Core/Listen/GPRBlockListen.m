@@ -13,7 +13,7 @@
     GPRListenBlockType _block;
 }
 
-- (instancetype)initWithBlock:(GPRListenBlockType)block
+- (instancetype) initWithBlock:(GPRListenBlockType)block
 {
     NSParameterAssert(block);
     if (self = [super init]) {
@@ -23,9 +23,9 @@
     return self;
 }
 
-- (void)next:(id)value
-        from:(GPRSenderList *)senderList
-     context:(nullable id)context
+- (void) next:(id)value
+         from:(GPRSenderList *)senderList
+      context:(nullable id)context
 {
     if (_block) {
         _block(value, senderList, context);

@@ -26,7 +26,6 @@
 // private
 #import "GPRNode+Private.h"
 #import "GPRMutableNode+Private.h"
-#import "GPRListenContext+Private.h"
 
 #import <objc/runtime.h>
 

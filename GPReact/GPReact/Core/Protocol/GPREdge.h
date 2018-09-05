@@ -12,17 +12,20 @@
 @required
 
 /**
- Name of the directed edge, used for data visualized debugging function
+ Name of the directed edge,
+ used for data visualized debugging function
  */
 @property (nonatomic, readwrite, copy, nullable) NSString *name;
 
 /**
- Upstream node where the edge comes from, data transmission will happen when both upstream and downstream node have values
+ Upstream node where the edge comes from,
+ data transmission will happen when both upstream and downstream node have values
  */
 @property (atomic, strong, nullable) id from;
 
 /**
- Downstream node where the edge directs to, data transmission will happen when both upstream and downstream node have values
+ Downstream node where the edge directs to,
+ data transmission will happen when both upstream and downstream node have values
  */
 @property (atomic, weak, nullable) id to;
 
