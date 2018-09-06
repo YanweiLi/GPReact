@@ -1,25 +1,20 @@
 //
-//  GPRMapTransform.m
+//  GPRDistinctTransform.m
 //  GPReact
 //
 //  Created by Liyanwei on 2018/9/5.
 //  Copyright © 2018年 Liyanwei. All rights reserved.
 //
 
-#import "GPRMapTransform.h"
+#import "GPRDistinctTransform.h"
 #import "GPRNode+Private.h"
 
-@implementation GPRMapTransform
-{
-@private
-    GPRMapBlock _block;
-}
+@implementation GPRDistinctTransform
 
-- (instancetype) initWithMapBlock:(GPRMapBlock)block
+- (instancetype) init
 {
     if (self = [super init]) {
-        _block = [block copy];
-        [super setName:@"Map"];
+        [super setName:@"Distinct"];
     }
     return self;
 }
@@ -28,9 +23,11 @@
          from:(GPRSenderList *)senderList
       context:(nullable id)context
 {
-    if (_block) {
-        [super next:_block(value) from:senderList context:context];
+    if (self.to.value == value || [self.to.value isEqual:value]) {
+        return;
     }
+    
+    [super next:value from:senderList context:context];
 }
 
 @end

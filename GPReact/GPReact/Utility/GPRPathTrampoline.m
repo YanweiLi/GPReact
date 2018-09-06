@@ -7,7 +7,7 @@
 //
 
 #import "GPRPathTrampoline.h"
-#import "GPRDelayTransform.h"
+#import "GPRNode+Operation.h"
 
 @implementation GPRPathTrampoline
 

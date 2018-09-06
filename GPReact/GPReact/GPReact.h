@@ -31,6 +31,11 @@
 // core - transform
 #import <GPReact/GPRTransform.h>
 #import <GPReact/GPRDelayTransform.h>
+#import <GPReact/GPRMapTransform.h>
+#import <GPReact/GPRDistinctTransform.h>
+#import <GPReact/GPRFlattenTransform.h>
+#import <GPReact/GPRThrottleTransform.h>
+#import <GPReact/GPRZipTransform.h>
 
 // utility
 #import <GPReact/GPRMarcoDefine.h>

@@ -139,9 +139,10 @@
     listenEdge.to = _listener;
     [_transforms addObject:listenEdge];
     
-    @GPRWeakify(self)
+    @GPRWeakify(self);
     return [[GPRBlockCancelable alloc] initWithBlock:^{
-        @GPRStrongify(self)
+        @GPRStrongify(self);
+        
         listenEdge.from = nil;
         listenEdge.to = nil;
         

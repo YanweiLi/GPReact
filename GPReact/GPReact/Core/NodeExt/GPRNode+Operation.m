@@ -8,6 +8,17 @@
 
 #import "GPRNode+Operation.h"
 
+// block
+#import "GPRBlockCancelable.h"
+
+
+// transform
+#import "GPRDelayTransform.h"
+#import "GPRMapTransform.h"
+#import "GPRDistinctTransform.h"
+#import "GPRFlattenTransform.h"
+#import "GPRThrottleTransform.h"
+
 @implementation GPRNode (Operation)
 
 @end
