@@ -10,7 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-
 @class GPRSenderList;
 typedef void(^GPRListenBlockType)(id _Nullable next, GPRSenderList *senderList, id _Nullable context);
 

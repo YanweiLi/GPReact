@@ -10,6 +10,7 @@
 #import "GPRMarcoDefine.h"
 
 NS_ASSUME_NONNULL_BEGIN
+@protocol GPRListenEdge;
 
 @interface GPRMutableNode ()
 {
