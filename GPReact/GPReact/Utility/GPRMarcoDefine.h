@@ -33,7 +33,6 @@
 #define GPR_LikelyNO(x)     (x)
 #endif /* GPR_BRANCH_PREDICTION */
 
-
 //////////////////////////////////////////////////////
 // 其他宏
 

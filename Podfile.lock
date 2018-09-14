@@ -1,8 +1,8 @@
 PODS:
-  - GPFoundation (1.0.0):
-    - GPTuple (~> 1.0.0)
+  - GPFoundation (1.0.1):
+    - GPTuple (~> 1.1.0)
     - GrapeSequence (~> 1.0.0)
-  - GPTuple (1.0.0)
+  - GPTuple (1.1.0)
   - GrapeSequence (1.0.0)
 
 DEPENDENCIES:
@@ -15,8 +15,8 @@ SPEC REPOS:
     - GrapeSequence
 
 SPEC CHECKSUMS:
-  GPFoundation: dc75f945233a7a8c2ce0275e7b5ffaeeb0a6d7ce
-  GPTuple: eda6a25628609fdca183872650babea14e249260
+  GPFoundation: df38c6bf8ccf16466408fb55da02d90bcd4fec39
+  GPTuple: 08fc9482decd365e4b3b370574958e0fc7138ba6
   GrapeSequence: 4a7cad2bfa4162ffac3e8cfe1401ec83d158cfc9
 
 PODFILE CHECKSUM: b6543cb62dbb883f4a86564e532d2db5b56b166c

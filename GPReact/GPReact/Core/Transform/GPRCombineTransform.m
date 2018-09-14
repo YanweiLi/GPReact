@@ -1,33 +1,36 @@
 //
-//  GPRZipTransform.m
+//  GPRCombineTransform.m
 //  GPReact
 //
-//  Created by Liyanwei on 2018/9/5.
+//  Created by Liyanwei on 2018/9/14.
 //  Copyright © 2018年 Liyanwei. All rights reserved.
 //
 
-#import "GPRZipTransform.h"
-#import <GPFoundation/GPFoundation.h>
-
-#import "GPRZipTransformGroup.h"
+#import "GPRCombineTransform.h"
+#import "GPRCombineTransformGroup.h"
 #import "GPRNode+Private.h"
-#import "GPRSenderList.h"
 #import "GPREmpty.h"
 
-@implementation GPRZipTransform
+#import <GPFoundation/GPFoundation.h>
+
+@interface GPRCombineTransform ()
+@property (atomic, readwrite, strong) id lastValue;
+@end
+
+@implementation GPRCombineTransform
 
 - (instancetype) init
 {
     if (self = [super init]) {
-        _nextQueue = [GPSQueue new];
-        [super setName:@"Zip"];
+        _lastValue = GPREmpty.empty;
+        [super setName:@"Combine"];
     }
     return self;
 }
 
 - (void) next:(id)value from:(GPRSenderList *)senderList context:(nullable id)context
 {
-    [_nextQueue enqueue:value];
+    self.lastValue = value;
     
     if (!self.group) {
         return;
@@ -51,7 +54,7 @@
     [self breakLinkingIfNeeded];
 }
 
-- (void) breakLinkingIfNeeded
+- (void) breakLinkingIfNeeded 
 {
     if (self.from == nil && self.to == nil) {
         [self.group removeTransform:self];

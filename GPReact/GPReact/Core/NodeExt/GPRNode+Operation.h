@@ -285,4 +285,75 @@ FOUNDATION_EXTERN NSString * const GPRExceptionReason_CasedNodeMustGenerateBySwi
 
 @end
 
+////////////////////////////////////////////////////////////////////////////////////////////
+
+#define GPRCombine(...)  _GPRCombine(__VA_ARGS__)
+#define GPRZip(...) _GPRZip(__VA_ARGS__)
+
+GPR_MapEachFakeInterfaceDef(15)
+
+#define GPRIFResultTable(_) \
+_(GPRNode<T> *, thenNode) \
+_(GPRNode<T> *, elseNode);
+
+_GPTNamedTupleDef(GPRIFResult, T)
+
+#define GPRSwitchedNodeTupleTable(_) \
+_(id<NSCopying>, key) \
+_(GPRNode<T> *, node);
+
+_GPTNamedTupleDef(GPRSwitchedNodeTuple, T)
+
+@interface GPRIFResult<T> (Extension)
+
+- (GPRIFResult<T> *)then:(void (NS_NOESCAPE ^)(GPRNode<T> *node))thenBlock;
+- (GPRIFResult<T> *)else:(void (NS_NOESCAPE ^)(GPRNode<T> *node))elseBlock;
+
+@end
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@interface GPRNode<T: id> (SwitchCase)
+
+/**
+ Using the return key of 'switchBlock' to group the future values of current node. If there is no corresponding downstream node for current key, a new node will be created. it is usually used to separate various return nodes, and we can get the specific key value node through 'if', 'case', 'default' operation afterwards.
+ 
+ @param switchBlock         Block used for grouping
+ @return                    GPRNode whose value is kind of GPRSwitchedNodeTuple
+ */
+- (GPRNode<GPRSwitchedNodeTuple<T> *> *)switch:(id<NSCopying> _Nullable (^)(T _Nullable next))switchBlock;
+
+
+/**
+ Using the return key of 'switchBlock' to group the future values of current node. If there is no corresponding downstream node for current key, a new node will be created. it is usually used to separate various return nodes, and wen can get the specific key value node through 'if', 'case', 'default' operation afterwards.
+ 
+ @param switchMapBlock      Block used for grouping
+ @return                    GPRNode whose value is kind of GPRSwitchedNodeTuple
+ */
+- (GPRNode<GPRSwitchedNodeTuple<id> *> *)switchMap:(GPTuple2<id<NSCopying>, id> *(^)(T _Nullable next))switchMapBlock;
+
+/**
+ Filters the node created by - [GPRNode switch:] or - [GPRNode switchMap:] into the one that corresponds to specific key.
+ 
+ @param key         Specific key
+ @return            Node whose value corresponds to specific key.
+ */
+- (GPRNode *)case:(nullable id<NSCopying>)key;
+
+/**
+ Separates current node into node that satisfies condition and node not satisfies. like [[GPRNode switch:] case:@YES] and [[GPRNode switch:] case:@NO]
+ 
+ @param block       Judge rules for separating node
+ @return            Tuple of node after separation
+ */
+- (GPRIFResult<T> *)if:(BOOL (^)(T _Nullable next))block;
+
+/**
+ Operation that matches nil. nil could be also used as key
+ 
+ @return            Node using nil as key
+ */
+- (GPRNode *)default;
+
+@end
 NS_ASSUME_NONNULL_END

@@ -41,4 +41,4 @@
 #import <GPReact/GPRMarcoDefine.h>
 #import <GPReact/GPRSenderList.h>
 #import <GPReact/GPRPathTrampoline.h>
-#import <GPReact/GPTypeDefine.h>
+#import <GPReact/GPRTypeDefine.h>
