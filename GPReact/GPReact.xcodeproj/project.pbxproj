@@ -41,6 +41,8 @@
 		D7873325214B8EE5002ADB56 /* GPRSwitchMapTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873323214B8EE5002ADB56 /* GPRSwitchMapTransform.m */; };
 		D7873328214B91AA002ADB56 /* GPRCaseTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873326214B91AA002ADB56 /* GPRCaseTransform.h */; };
 		D7873329214B91AA002ADB56 /* GPRCaseTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873327214B91AA002ADB56 /* GPRCaseTransform.m */; };
+		D787337A214BAD3F002ADB56 /* GPRCancelableBag.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873378214BAD3F002ADB56 /* GPRCancelableBag.h */; };
+		D787337B214BAD3F002ADB56 /* GPRCancelableBag.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873379214BAD3F002ADB56 /* GPRCancelableBag.m */; };
 		D791E93F213FD3F9001EA9D5 /* GPRNode+Listen.h in Headers */ = {isa = PBXBuildFile; fileRef = D791E93D213FD3F9001EA9D5 /* GPRNode+Listen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D791E940213FD3F9001EA9D5 /* GPRNode+Listen.m in Sources */ = {isa = PBXBuildFile; fileRef = D791E93E213FD3F9001EA9D5 /* GPRNode+Listen.m */; };
 		D791E943213FD828001EA9D5 /* GPRThrottleTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D791E941213FD828001EA9D5 /* GPRThrottleTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -122,6 +124,8 @@
 		D7873323214B8EE5002ADB56 /* GPRSwitchMapTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRSwitchMapTransform.m; sourceTree = "<group>"; };
 		D7873326214B91AA002ADB56 /* GPRCaseTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRCaseTransform.h; sourceTree = "<group>"; };
 		D7873327214B91AA002ADB56 /* GPRCaseTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRCaseTransform.m; sourceTree = "<group>"; };
+		D7873378214BAD3F002ADB56 /* GPRCancelableBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRCancelableBag.h; sourceTree = "<group>"; };
+		D7873379214BAD3F002ADB56 /* GPRCancelableBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRCancelableBag.m; sourceTree = "<group>"; };
 		D791E93D213FD3F9001EA9D5 /* GPRNode+Listen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPRNode+Listen.h"; sourceTree = "<group>"; };
 		D791E93E213FD3F9001EA9D5 /* GPRNode+Listen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GPRNode+Listen.m"; sourceTree = "<group>"; };
 		D791E941213FD828001EA9D5 /* GPRThrottleTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRThrottleTransform.h; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 				D7873313214B81A8002ADB56 /* GPRCombineTransformGroup.m */,
 				D791E949213FDDA0001EA9D5 /* GPRZipTransformGroup.h */,
 				D791E94A213FDDA0001EA9D5 /* GPRZipTransformGroup.m */,
+				D7873378214BAD3F002ADB56 /* GPRCancelableBag.h */,
+				D7873379214BAD3F002ADB56 /* GPRCancelableBag.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -395,6 +401,7 @@
 				D7B4D38621391EDD00806D87 /* GPRPathTrampoline.h in Headers */,
 				D7B4D393213937BA00806D87 /* GPRTransform.h in Headers */,
 				D73862C0213FB2A1009ECB88 /* GPRNode+Operation.h in Headers */,
+				D787337A214BAD3F002ADB56 /* GPRCancelableBag.h in Headers */,
 				D73B3BC32138EDC200733EFA /* GPRListenContext.h in Headers */,
 				D7FD6C3621390DD100C6D0FD /* GPRNode.h in Headers */,
 				D7B4D37D2139189700806D87 /* GPRDeliveredListen.h in Headers */,
@@ -552,6 +559,7 @@
 				D7FD6C3721390DD100C6D0FD /* GPRNode.m in Sources */,
 				D7B4D38721391EDD00806D87 /* GPRPathTrampoline.m in Sources */,
 				D787330C214B656D002ADB56 /* GPRFilteredTransform.m in Sources */,
+				D787337B214BAD3F002ADB56 /* GPRCancelableBag.m in Sources */,
 				D7873310214B8187002ADB56 /* GPRCombineTransform.m in Sources */,
 				D7E46E68213FB3EF00631B7A /* GPRDelayTransform.m in Sources */,
 				D7873315214B81A8002ADB56 /* GPRCombineTransformGroup.m in Sources */,
