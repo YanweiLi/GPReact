@@ -8,6 +8,7 @@
 
 #import "GPRNode+Listen.h"
 #import "NSObject+GPRListen.h"
+#import "GPRListenContext.h"
 
 @implementation GPRNode (Listen)
 

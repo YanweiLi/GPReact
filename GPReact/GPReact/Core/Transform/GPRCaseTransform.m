@@ -7,8 +7,11 @@
 //
 
 #import "GPRCaseTransform.h"
+#import "GPRCancelable.h"
 #import "GPRMarcoDefine.h"
+#import "GPRListenContext.h"
 #import "GPRNode+Listen.h"
+#import "GPRNode+Operation.h"
 
 @interface GPRCaseTransform ()
 @property (atomic, strong) GPRNode *lastNode;
