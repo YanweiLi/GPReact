@@ -95,7 +95,7 @@ NSString * const GPRExceptionReason_CasedNodeMustGenerateBySwitchOrSwitchMapOper
     }];
 }
 
-- (GPRNode *) then:(void(^)(GPRNode<id> *node))thenBlock
+- (GPRNode *) then:(void(NS_NOESCAPE ^)(GPRNode<id> *node))thenBlock
 {
     NSParameterAssert(thenBlock);
     if (thenBlock) {
@@ -349,7 +349,7 @@ _GPTNamedTupleImp(GPRSwitchedNodeTuple)
 
 @implementation GPRIFResult (Extension)
 
-- (GPRIFResult *)then:(void (^)(GPRNode<id> * _Nonnull))thenBlock {
+- (GPRIFResult *)then:(void (NS_NOESCAPE^)(GPRNode<id> * _Nonnull))thenBlock {
     NSParameterAssert(thenBlock);
     if (thenBlock) {
         thenBlock(self.thenNode);
@@ -357,7 +357,7 @@ _GPTNamedTupleImp(GPRSwitchedNodeTuple)
     return self;
 }
 
-- (GPRIFResult *)else:(void (^)(GPRNode<id> * _Nonnull))elseBlock {
+- (GPRIFResult *)else:(void (NS_NOESCAPE^)(GPRNode<id> * _Nonnull))elseBlock {
     NSParameterAssert(elseBlock);
     if (elseBlock) {
         elseBlock(self.elseNode);

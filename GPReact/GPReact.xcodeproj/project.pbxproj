@@ -23,33 +23,33 @@
 		D74D9B41213FCE5E00CDA1C4 /* GPRFlattenTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D74D9B3F213FCE5E00CDA1C4 /* GPRFlattenTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D74D9B42213FCE5E00CDA1C4 /* GPRFlattenTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D74D9B40213FCE5E00CDA1C4 /* GPRFlattenTransform.m */; };
 		D7873300214B4A87002ADB56 /* GPRMarcoDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B4D3792139122C00806D87 /* GPRMarcoDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7873307214B62C2002ADB56 /* GPRDeliverTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873305214B62C2002ADB56 /* GPRDeliverTransform.h */; };
+		D7873307214B62C2002ADB56 /* GPRDeliverTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873305214B62C2002ADB56 /* GPRDeliverTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873308214B62C2002ADB56 /* GPRDeliverTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873306214B62C2002ADB56 /* GPRDeliverTransform.m */; };
-		D787330B214B656D002ADB56 /* GPRFilteredTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873309214B656D002ADB56 /* GPRFilteredTransform.h */; };
+		D787330B214B656D002ADB56 /* GPRFilteredTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873309214B656D002ADB56 /* GPRFilteredTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D787330C214B656D002ADB56 /* GPRFilteredTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D787330A214B656D002ADB56 /* GPRFilteredTransform.m */; };
-		D787330F214B8187002ADB56 /* GPRCombineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D787330D214B8187002ADB56 /* GPRCombineTransform.h */; };
+		D787330F214B8187002ADB56 /* GPRCombineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D787330D214B8187002ADB56 /* GPRCombineTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873310214B8187002ADB56 /* GPRCombineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D787330E214B8187002ADB56 /* GPRCombineTransform.m */; };
-		D7873314214B81A8002ADB56 /* GPRCombineTransformGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873312214B81A8002ADB56 /* GPRCombineTransformGroup.h */; };
+		D7873314214B81A8002ADB56 /* GPRCombineTransformGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873312214B81A8002ADB56 /* GPRCombineTransformGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873315214B81A8002ADB56 /* GPRCombineTransformGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873313214B81A8002ADB56 /* GPRCombineTransformGroup.m */; };
-		D7873318214B86E0002ADB56 /* GPRTakeTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873316214B86E0002ADB56 /* GPRTakeTransform.h */; };
+		D7873318214B86E0002ADB56 /* GPRTakeTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873316214B86E0002ADB56 /* GPRTakeTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873319214B86E0002ADB56 /* GPRTakeTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873317214B86E0002ADB56 /* GPRTakeTransform.m */; };
-		D787331C214B8A47002ADB56 /* GPRSkipTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D787331A214B8A47002ADB56 /* GPRSkipTransform.h */; };
+		D787331C214B8A47002ADB56 /* GPRSkipTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D787331A214B8A47002ADB56 /* GPRSkipTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D787331D214B8A47002ADB56 /* GPRSkipTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D787331B214B8A47002ADB56 /* GPRSkipTransform.m */; };
-		D7873320214B8B86002ADB56 /* GPRScanTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D787331E214B8B86002ADB56 /* GPRScanTransform.h */; };
+		D7873320214B8B86002ADB56 /* GPRScanTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D787331E214B8B86002ADB56 /* GPRScanTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873321214B8B86002ADB56 /* GPRScanTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D787331F214B8B86002ADB56 /* GPRScanTransform.m */; };
-		D7873324214B8EE5002ADB56 /* GPRSwitchMapTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873322214B8EE5002ADB56 /* GPRSwitchMapTransform.h */; };
+		D7873324214B8EE5002ADB56 /* GPRSwitchMapTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873322214B8EE5002ADB56 /* GPRSwitchMapTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873325214B8EE5002ADB56 /* GPRSwitchMapTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873323214B8EE5002ADB56 /* GPRSwitchMapTransform.m */; };
-		D7873328214B91AA002ADB56 /* GPRCaseTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873326214B91AA002ADB56 /* GPRCaseTransform.h */; };
+		D7873328214B91AA002ADB56 /* GPRCaseTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873326214B91AA002ADB56 /* GPRCaseTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873329214B91AA002ADB56 /* GPRCaseTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873327214B91AA002ADB56 /* GPRCaseTransform.m */; };
-		D787337A214BAD3F002ADB56 /* GPRCancelableBag.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873378214BAD3F002ADB56 /* GPRCancelableBag.h */; };
+		D787337A214BAD3F002ADB56 /* GPRCancelableBag.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873378214BAD3F002ADB56 /* GPRCancelableBag.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D787337B214BAD3F002ADB56 /* GPRCancelableBag.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873379214BAD3F002ADB56 /* GPRCancelableBag.m */; };
-		D7873380214BB492002ADB56 /* GPRNode+Graph.h in Headers */ = {isa = PBXBuildFile; fileRef = D787337E214BB492002ADB56 /* GPRNode+Graph.h */; };
+		D7873380214BB492002ADB56 /* GPRNode+Graph.h in Headers */ = {isa = PBXBuildFile; fileRef = D787337E214BB492002ADB56 /* GPRNode+Graph.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873381214BB492002ADB56 /* GPRNode+Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = D787337F214BB492002ADB56 /* GPRNode+Graph.m */; };
-		D7873384214BB528002ADB56 /* GPRNode+Traversal.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873382214BB528002ADB56 /* GPRNode+Traversal.h */; };
+		D7873384214BB528002ADB56 /* GPRNode+Traversal.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873382214BB528002ADB56 /* GPRNode+Traversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873385214BB528002ADB56 /* GPRNode+Traversal.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873383214BB528002ADB56 /* GPRNode+Traversal.m */; };
-		D7873388214BB908002ADB56 /* GPRNode+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873386214BB908002ADB56 /* GPRNode+Mutable.h */; };
+		D7873388214BB908002ADB56 /* GPRNode+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = D7873386214BB908002ADB56 /* GPRNode+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7873389214BB908002ADB56 /* GPRNode+Mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = D7873387214BB908002ADB56 /* GPRNode+Mutable.m */; };
-		D787338C214BB9C8002ADB56 /* GPRNode+Value.h in Headers */ = {isa = PBXBuildFile; fileRef = D787338A214BB9C8002ADB56 /* GPRNode+Value.h */; };
+		D787338C214BB9C8002ADB56 /* GPRNode+Value.h in Headers */ = {isa = PBXBuildFile; fileRef = D787338A214BB9C8002ADB56 /* GPRNode+Value.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D787338D214BB9C8002ADB56 /* GPRNode+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = D787338B214BB9C8002ADB56 /* GPRNode+Value.m */; };
 		D791E93F213FD3F9001EA9D5 /* GPRNode+Listen.h in Headers */ = {isa = PBXBuildFile; fileRef = D791E93D213FD3F9001EA9D5 /* GPRNode+Listen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D791E940213FD3F9001EA9D5 /* GPRNode+Listen.m in Sources */ = {isa = PBXBuildFile; fileRef = D791E93E213FD3F9001EA9D5 /* GPRNode+Listen.m */; };
@@ -412,12 +412,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D791E93F213FD3F9001EA9D5 /* GPRNode+Listen.h in Headers */,
 				D7873307214B62C2002ADB56 /* GPRDeliverTransform.h in Headers */,
-				D791E94B213FDDA0001EA9D5 /* GPRZipTransformGroup.h in Headers */,
 				D7873328214B91AA002ADB56 /* GPRCaseTransform.h in Headers */,
-				D791E943213FD828001EA9D5 /* GPRThrottleTransform.h in Headers */,
 				D787331C214B8A47002ADB56 /* GPRSkipTransform.h in Headers */,
+				D787337A214BAD3F002ADB56 /* GPRCancelableBag.h in Headers */,
+				D7873388214BB908002ADB56 /* GPRNode+Mutable.h in Headers */,
+				D7873320214B8B86002ADB56 /* GPRScanTransform.h in Headers */,
+				D787330B214B656D002ADB56 /* GPRFilteredTransform.h in Headers */,
+				D7873324214B8EE5002ADB56 /* GPRSwitchMapTransform.h in Headers */,
+				D7873314214B81A8002ADB56 /* GPRCombineTransformGroup.h in Headers */,
+				D7873380214BB492002ADB56 /* GPRNode+Graph.h in Headers */,
+				D7873318214B86E0002ADB56 /* GPRTakeTransform.h in Headers */,
+				D787330F214B8187002ADB56 /* GPRCombineTransform.h in Headers */,
+				D787338C214BB9C8002ADB56 /* GPRNode+Value.h in Headers */,
+				D7873384214BB528002ADB56 /* GPRNode+Traversal.h in Headers */,
+				D791E93F213FD3F9001EA9D5 /* GPRNode+Listen.h in Headers */,
+				D791E94B213FDDA0001EA9D5 /* GPRZipTransformGroup.h in Headers */,
+				D791E943213FD828001EA9D5 /* GPRThrottleTransform.h in Headers */,
 				D74D9B41213FCE5E00CDA1C4 /* GPRFlattenTransform.h in Headers */,
 				D7E46E73213FCBFB00631B7A /* GPRDistinctTransform.h in Headers */,
 				D791E947213FDCCD001EA9D5 /* GPRZipTransform.h in Headers */,
@@ -425,41 +436,30 @@
 				D7B4D38621391EDD00806D87 /* GPRPathTrampoline.h in Headers */,
 				D7B4D393213937BA00806D87 /* GPRTransform.h in Headers */,
 				D73862C0213FB2A1009ECB88 /* GPRNode+Operation.h in Headers */,
-				D787337A214BAD3F002ADB56 /* GPRCancelableBag.h in Headers */,
 				D73B3BC32138EDC200733EFA /* GPRListenContext.h in Headers */,
 				D7FD6C3621390DD100C6D0FD /* GPRNode.h in Headers */,
-				D7873388214BB908002ADB56 /* GPRNode+Mutable.h in Headers */,
 				D7B4D37D2139189700806D87 /* GPRDeliveredListen.h in Headers */,
-				D7873320214B8B86002ADB56 /* GPRScanTransform.h in Headers */,
 				D7B4D3772139112300806D87 /* GPRListen.h in Headers */,
 				D7B4D38B21391F4400806D87 /* GPRMutableNode.h in Headers */,
 				D7E8C4FF213F83FC00E90ED7 /* NSObject+GPRListen.h in Headers */,
 				D7B4D39721393F1600806D87 /* GPRBlockCancelable.h in Headers */,
 				D7B4D36F2139107500806D87 /* GPRCancelableBagProtocol.h in Headers */,
 				D7B4D3822139194400806D87 /* NSObject+GPRExt.h in Headers */,
-				D787330B214B656D002ADB56 /* GPRFilteredTransform.h in Headers */,
 				D7E46E6B213FBF5B00631B7A /* GPRMapTransform.h in Headers */,
-				D7873324214B8EE5002ADB56 /* GPRSwitchMapTransform.h in Headers */,
 				D7E46E67213FB3EF00631B7A /* GPRDelayTransform.h in Headers */,
 				D7B4D372213910CC00806D87 /* GPRBlockListen.h in Headers */,
 				D7B4D38F213935D800806D87 /* GPREmpty.h in Headers */,
-				D7873314214B81A8002ADB56 /* GPRCombineTransformGroup.h in Headers */,
-				D7873380214BB492002ADB56 /* GPRNode+Graph.h in Headers */,
 				D74AFEBF2138DF9A000E48E7 /* GPRNextReceiver.h in Headers */,
 				D74AFEBD2138DA3B000E48E7 /* GPRTransformEdge.h in Headers */,
 				D7FD6C3221390D8B00C6D0FD /* GPRListenContext+Private.h in Headers */,
-				D7873318214B86E0002ADB56 /* GPRTakeTransform.h in Headers */,
 				D7B4D39F2139416800806D87 /* GPRMutableNode+Private.h in Headers */,
 				D7FD6C3A21390F0900C6D0FD /* GPRNode+Private.h in Headers */,
 				D74AFEC62138E7AF000E48E7 /* GPRListenEdge.h in Headers */,
-				D787330F214B8187002ADB56 /* GPRCombineTransform.h in Headers */,
 				D74AFEC82138E7F7000E48E7 /* GPREdge.h in Headers */,
 				D74AFEBB2138DA05000E48E7 /* GPRCancelable.h in Headers */,
 				D74AFEC32138DFE9000E48E7 /* GPRSenderList.h in Headers */,
-				D787338C214BB9C8002ADB56 /* GPRNode+Value.h in Headers */,
 				D74AFEB721380D91000E48E7 /* GPReact.h in Headers */,
 				D7873300214B4A87002ADB56 /* GPRMarcoDefine.h in Headers */,
-				D7873384214BB528002ADB56 /* GPRNode+Traversal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
