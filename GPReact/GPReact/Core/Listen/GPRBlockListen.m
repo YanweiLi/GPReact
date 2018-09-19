@@ -27,7 +27,7 @@
          from:(GPRSenderList *)senderList
       context:(nullable id)context
 {
-    if (_block) {
+    if (_block && self.to) {
         _block(value, senderList, context);
     }
 }
